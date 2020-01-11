@@ -18,7 +18,7 @@ Azure Cosmos DB is having limitations according to the [Azure documentation](htt
 
 To start off, build the image in our source first.
 ```
-clocal cosmosdb-init
+$ clocal cosmosdb-init
 ```
 
 This will create the image and will be in a ready state to start a container from the created image.
@@ -27,7 +27,7 @@ This will create the image and will be in a ready state to start a container fro
 
 After creating the image, start the container.
 ```
-clocal cosmosdb-start
+$ clocal cosmosdb-start
 ```
 
 ## Step 3:
@@ -47,9 +47,9 @@ Now go the [examples](./../example/azure-cosmosdb/config.js) folder, and then in
 ## Step 5:
 
 Now run the sample project by installing the node modules and start.
-```node install``` 
+```$ node install``` 
 and 
-```npm start```
+```$ npm start```
 
 ![CosmosDB-Result2](./../src/assets/cosmosdb-result2.png)
 
@@ -57,7 +57,7 @@ and
 
 * **Stop Cosmos DB**
 ```
-clocal cosmosdb-stop
+$ clocal cosmosdb-stop
 ```
 
 
