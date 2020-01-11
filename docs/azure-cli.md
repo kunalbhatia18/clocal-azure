@@ -11,13 +11,13 @@ The Azure CLI 2.0 is the officially supported docker image by microsoft. Therefo
 
 Start the service
 
-```clocal cli-start```
+```$ clocal cli-start```
 
 ## Step 2:
 
 Stop the service
 
-```exit```
+```$ exit```
 
 ## Expected Results
 
